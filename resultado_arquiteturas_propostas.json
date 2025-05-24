@@ -1,0 +1,131 @@
+[
+    {
+        "camadas": [
+            20
+        ],
+        "solver": "adam",
+        "activation": "relu",
+        "iterations": 100,
+        "media_acuracia": 0.7331,
+        "desvio_acuracia": 0.0029,
+        "media_f1": 0.7257,
+        "desvio_f1": 0.0033
+    },
+    {
+        "camadas": [
+            20,
+            20
+        ],
+        "solver": "adam",
+        "activation": "relu",
+        "iterations": 150,
+        "media_acuracia": 0.7685917706994677,
+        "desvio_acuracia": 0.003365932341895027,
+        "media_f1": 0.7639049510587913,
+        "desvio_f1": 0.0035941820624222046
+    },
+    {
+        "camadas": [
+            11,
+            2
+        ],
+        "solver": "adam",
+        "activation": "tanh",
+        "iterations": 100,
+        "media_acuracia": 0.7229,
+        "desvio_acuracia": 0.0031,
+        "media_f1": 0.7095,
+        "desvio_f1": 0.0034
+    },
+    {
+        "camadas": [
+            16, 
+            32
+        ],
+        "solver": "adam",
+        "activation": "relu",
+        "iterations": 150,
+        "media_acuracia": 0.7748,
+        "desvio_acuracia": 0.0033,
+        "media_f1": 0.7709,
+        "desvio_f1": 0.0033
+    },
+    {
+        "camadas": [
+            5,
+            20
+        ],
+        "solver": "sgd",
+        "activation": "tanh",
+        "iterations": 150,
+        "media_acuracia": 0.7148,
+        "desvio_acuracia": 0.0037,
+        "media_f1": 0.7012,
+        "desvio_f1":0.0040
+    },
+    {
+        "camadas": [
+            48,
+            60
+        ],
+        "solver": "sgd",
+        "activation": "relu",
+        "iterations": 150,
+        "media_acuracia": 0.8076997659261979,
+        "desvio_acuracia": 0.002632149903162346,
+        "media_f1": 0.8040393956703524,
+        "desvio_f1": 0.0029629782468313217
+    },
+    {
+        "camadas": [
+            19,
+            40
+        ],
+        "solver": "sgd",
+        "activation": "logistic",
+        "iterations": 100,
+        "media_acuracia": 0.7084,
+        "desvio_acuracia": 0.0015,
+        "media_f1": 0.6923,
+        "desvio_f1": 0.0019
+    },
+    {
+        "camadas": [
+            32,
+            32
+        ],
+        "solver": "sgd",
+        "activation": "relu",
+        "iterations": 150,
+        "media_acuracia": 0.7819218721314484,
+        "desvio_acuracia": 0.0030228159118771084,
+        "media_f1": 0.7770130868028555,
+        "desvio_f1": 0.003403707848456569
+    },
+    {
+        "camadas": [
+            36,
+            28
+        ],
+        "solver": "adam",
+        "activation": "logistic",
+        "iterations": 150,
+        "media_acuracia": 0.7983959633743345,
+        "desvio_acuracia": 0.0023958466173376594,
+        "media_f1": 0.7951032005710128,
+        "desvio_f1": 0.0025756146133989227
+    },  
+    {
+        "camadas": [
+            32,
+            16
+        ],
+        "solver": "sgd",
+        "activation": "relu",
+        "iterations": 150,
+        "media_acuracia": 0.766964900403892,
+        "desvio_acuracia": 0.0026188521439549635,
+        "media_f1": 0.7610507687210872,
+        "desvio_f1": 0.002927718942276627
+    }
+]
