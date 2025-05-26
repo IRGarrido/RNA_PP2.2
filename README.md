@@ -3,7 +3,7 @@ Repositório destinado à publicação das atividades da parte 2 do 2° Projeto 
 **Data de criação:** 24/05/2025
 **Última atualização:** 26/05/2025 
 
-Este projeto tem por objetivo a exploraração da base de dados Forest Cover Type, disponível em https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset), com foco nas seguintes práticas:
+Este projeto tem por objetivo a exploraração da base de dados Forest Cover Type, disponível em https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset, com foco nas seguintes práticas:
 1. Análise e manipulação de dados do dataset;
 2. Avaliação de redes neurais artificiais MLP para classificação de dados categóricos ou não;
 3. Busca em grade mediante validação K-Fold.
